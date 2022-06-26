@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:background="#FFF"
+    android:padding="20px">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title: " />
+
+    <TextView
+        android:id="@+id/addressView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: " />
+
+    <TextView
+        android:id="@+id/daysAndHoursView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Days and Hours: " />
+
+    <TextView
+        android:id="@+id/distributionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distribution: " />
+
+    <TextView
+        android:id="@+id/foodResourceTypeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Resource Type: " />
+
+    <TextView
+        android:id="@+id/operationalNotesView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operational Notes: " />
+
+    <TextView
+        android:id="@+id/operationalStatusView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operational Status: " />
+
+    <TextView
+        android:id="@+id/phoneNumberView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: " />
+
+    <TextView
+        android:id="@+id/websiteView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website: " />
+
+    <TextView
+        android:id="@+id/whoTheyServeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who They Serve: " />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:id="@+id/infoPopupDoneButton"/>
+
+
+</LinearLayout>
